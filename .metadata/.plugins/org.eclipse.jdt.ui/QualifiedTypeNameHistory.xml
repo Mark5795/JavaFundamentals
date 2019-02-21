@@ -1,2 +1,12 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<qualifiedTypeNameHistroy/>
+<qualifiedTypeNameHistroy>
+<fullyQualifiedTypeName name="java.util.Timer"/>
+<fullyQualifiedTypeName name="java.util.List"/>
+<fullyQualifiedTypeName name="java.lang.Object"/>
+<fullyQualifiedTypeName name="java.util.Observable"/>
+<fullyQualifiedTypeName name="oefening1.KlokConsoleView"/>
+<fullyQualifiedTypeName name="oefening1.TimeController"/>
+<fullyQualifiedTypeName name="javax.swing.Timer"/>
+<fullyQualifiedTypeName name="oefening1.KlokModel"/>
+<fullyQualifiedTypeName name="java.util.Observer"/>
+</qualifiedTypeNameHistroy>
