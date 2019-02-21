@@ -1,12 +1,13 @@
 package oefeningLes;
 
+import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 public class PulseController implements ActionListener
 {
-	private Worp worp;
+	private WorpModel worp;
 	
-	public PulseController( Worp worp )
+	public PulseController( WorpModel worp )
 	{
 		this.worp = worp;
 	}

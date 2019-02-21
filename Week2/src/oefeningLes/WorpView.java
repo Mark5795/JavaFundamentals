@@ -1,13 +1,14 @@
 package oefeningLes;
 
 import java.util.Observer;
+import java.util.Observable;
 
 public class WorpView implements Observer
 {
-	private Worp worp;
+	private WorpModel worp;
 	private DobbelsteenConsoleView[] steenViews;
 	
-	public WorpView(Worp worp)
+	public WorpView(WorpModel worp)
 	{
 		this.worp = worp;
 		worp.addObserver(this);
@@ -18,10 +19,12 @@ public class WorpView implements Observer
 		for (int i = 0; i < aantal; i++) 
 		{
 			steenViews[i] =	new DobbelsteenConsoleView(worp.getDobbelsteen(i));
-		}			
+		}
 	}
 	
-	public void refresh()
+//	stap 3
+//	public void refresh()
+	private void refresh()
 	{
 		// ik heb DobbelsteenView verandert in DobbelsteenConsoleView 
 		for (DobbelsteenConsoleView view : steenViews) 
@@ -31,10 +34,9 @@ public class WorpView implements Observer
 		
 		System.out.println("totaal: " + worp.getWaarde() );
 	}
-	
+
 	@Override
-	public void update( Observable worp, Object info )
-	{
-		refresh();
+	public void update(Observable worp, Object info) {
+		refresh();		
 	}
 }

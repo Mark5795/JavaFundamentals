@@ -2,13 +2,14 @@ package oefeningLes;
 
 import java.util.Random;
 
-public class Dobbelsteen 
+//model
+public class DobbelsteenModel
 {
 	
 	private int waarde;
 	private static final Random generator = new Random();
 	
-	public Dobbelsteen()
+	public DobbelsteenModel()
 	{
 		werp();
 	}

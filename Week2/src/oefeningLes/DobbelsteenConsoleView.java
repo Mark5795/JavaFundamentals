@@ -3,9 +3,9 @@ package oefeningLes;
 public class DobbelsteenConsoleView 
 {
 	
-	private Dobbelsteen dobbelsteen;
+	private DobbelsteenModel dobbelsteen;
 	
-	public DobbelsteenConsoleView(Dobbelsteen dobbelsteen)
+	public DobbelsteenConsoleView(DobbelsteenModel dobbelsteen)
 	{
 		this.dobbelsteen = dobbelsteen;
 	}
