@@ -7,6 +7,8 @@
 <fullyQualifiedTypeName name="oefening1.KlokConsoleView"/>
 <fullyQualifiedTypeName name="oefening1.TimeController"/>
 <fullyQualifiedTypeName name="javax.swing.Timer"/>
-<fullyQualifiedTypeName name="oefening1.KlokModel"/>
 <fullyQualifiedTypeName name="java.util.Observer"/>
+<fullyQualifiedTypeName name="oefening1.KlokModel"/>
+<fullyQualifiedTypeName name="groteOefening.LifeApplication"/>
+<fullyQualifiedTypeName name="groteOefening.LifeConsoleView"/>
 </qualifiedTypeNameHistroy>
