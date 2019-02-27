@@ -3,12 +3,13 @@
 <fullyQualifiedTypeName name="java.util.Timer"/>
 <fullyQualifiedTypeName name="java.util.List"/>
 <fullyQualifiedTypeName name="java.lang.Object"/>
-<fullyQualifiedTypeName name="java.util.Observable"/>
 <fullyQualifiedTypeName name="oefening1.KlokConsoleView"/>
 <fullyQualifiedTypeName name="oefening1.TimeController"/>
-<fullyQualifiedTypeName name="javax.swing.Timer"/>
 <fullyQualifiedTypeName name="java.util.Observer"/>
 <fullyQualifiedTypeName name="oefening1.KlokModel"/>
 <fullyQualifiedTypeName name="groteOefening.LifeApplication"/>
 <fullyQualifiedTypeName name="groteOefening.LifeConsoleView"/>
+<fullyQualifiedTypeName name="javax.swing.Timer"/>
+<fullyQualifiedTypeName name="java.util.Observable"/>
+<fullyQualifiedTypeName name="java.awt.event.ActionListener"/>
 </qualifiedTypeNameHistroy>
